@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcule a média ponderada!</title>
+    <link rel="stylesheet" href="mediaenemstyle.css">
+</head>
+
+<body>
+    <script src="mediaenemjs.js"></script>
+    
+    
+    <div class="o">
+        <h3>Calcule sua média do ENEM aqui!</h3>
+        <img src="https://m.media-amazon.com/images/I/816Etq5qEwL._AC_UF894,1000_QL80_.jpg" alt="Imagem do ENEM"><br>
+        <label for="va">Informe o seu curso:</label>
+        <select name="curso" id="va">
+            <option value="m">Média</option>
+            <option value="BIO">Biomedicina</option>
+            <option value="CC">Ciência da computação</option>
+            <option value="EDF">Educação Física</option>
+            <option value="ENGC">Engenharia de Computação</option>
+            <option value="ENF">Enfermagem</option>
+            <option value="GES">Gestão da Informação</option>
+            <option value="JON">Jornalismo</option>
+            <option value="MED">Medicina</option>
+            <option value="NUT">Nutrição</option>
+            <option value="ODO">Odonto</option>
+            <option value="RI">Relações Internacionais</option>
+            <option value="SI">Sistemas de Informação</option>
+        </select>
+        <br>
+        <label for="mod1">Informe a sua modalidade:</label>
+        <select name="mod" id="mod1">
+            <option value="AC">AC</option>
+            <option value="L6">L6</option>
+            <option value="L5">L5</option>
+        </select>
+    
+        <label class="i" for="v1">Linguagens, Códigos:
+            <input type="number" id="v1">
+        </label>
+    
+        <label class="i" for="v2">Ciências Humanas:
+            <input type="number" id="v2">
+        </label>
+    
+        <label class="i" for="v3">Ciências da Natureza:
+            <input type="number" id="v3">
+        </label>
+    
+        <label class="i" for="v4">Matemática e suas Tecnologias:
+            <input type="number" id="v4">
+        </label>
+    
+        <label class="i" for="v5">Redação:
+            <input type="number" id="v5">
+        </label>
+        
+        <button type="button" onclick="req()">Calcular</button>
+        <p>Lembrando que aqui nesse site é apenas uma probabilidade!</p>
+        <p id="r"></p>
+        <p id="r1"></p>
+        <p id="r2"></p>
+        <p id="r3"></p>
+    </div>
+    <div class="u">Site desenvolvido por Leandro Sousa</div>
+</body>
+</html>
