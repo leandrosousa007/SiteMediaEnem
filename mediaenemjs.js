@@ -1,5 +1,5 @@
 function req() {
-    alert()
+
     
     var a1 = parseFloat(document.getElementById("v1").value);
     var a2 = parseFloat(document.getElementById("v2").value);

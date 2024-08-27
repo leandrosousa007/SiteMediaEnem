@@ -10,7 +10,11 @@ body {
     align-items: center;
     height: 100vh;
 }
+.gu{
+    font-size: 11px;
+    color: #333;
 
+}
 h3 {
     text-align: center;
     color: #000;
